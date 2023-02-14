@@ -1,7 +1,11 @@
-import React from "react";
+import Card from "./components/Card";
 
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="  bg-light-bacground flex h-screen justify-center items-center">
+      <Card />
+    </div>
+  );
 };
 
 export default App;
